@@ -1,0 +1,27 @@
+.npanel
+{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.spanel
+{ position: relative;
+   max-width:50%;
+   
+}
+
+@media  (min-width:768px) and (max-width:1119px)
+{
+    .spanel
+    {
+       min-width: 70%;
+         
+    }
+}
+ @media  (max-width:767px) 
+{
+    .spanel
+    {
+       min-width: 80%;
+       
+    }
+}
